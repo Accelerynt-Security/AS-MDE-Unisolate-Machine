@@ -23,19 +23,19 @@
         "ClientID": {
             "type": "string",
             "metadata" : {
-                "description" : "The Client Id of the app registration"
+                "description" : "The client id of the app registration"
             }
         },
         "KeyVaultName": {
             "type": "string",
             "metadata" : {
-                "description" : "Name of the Key Vault that stores the Okta API token"
+                "description" : "Name of the Key Vault that stores the app registration client secret"
             }
         },
         "KeyVaultSecretName": {
             "type": "string",
             "metadata": {
-                "description": "Name of Key Vault Secret that contains the value of the Okta API token"
+                "description": "Name of Key Vault Secret that contains the value of the app registration client secret"
             }
         }
     },
@@ -124,7 +124,7 @@
                             "inputs": {
                                 "body": {
                                     "incidentArmId": "@triggerBody()?['object']?['id']",
-                                    "message": "<p>Removed the following hosts from isolation:<br>\n<br>\n@{variables('Affected Hosts')}</p>"
+                                    "message": "<p>@{variables('Affected Hosts')}</p>"
                                 },
                                 "host": {
                                     "connection": {

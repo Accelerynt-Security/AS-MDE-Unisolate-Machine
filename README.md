@@ -81,7 +81,7 @@ Navigate to an existing key vault or create a new one. From the key vault overvi
 
 ![UnisolateMachine_Key_Vault_1](Images/UnisolateMachine_Key_Vault_1.png)
 
-Choose a name for the secret, such as "**AS-MDE-Isolate-Machine--AR-Client-Secrett**", and enter the client secret copied in the [previous section](https://github.com/Accelerynt-Security/AS-MDE-Unisolate-Machine#create-an-app-registration). All other settings can be left as is. Click "**Create**". 
+Choose a name for the secret, such as "**AS-MDE-Isolate-Machine--AR-Client-Secret**", and enter the client secret copied in the [previous section](https://github.com/Accelerynt-Security/AS-MDE-Unisolate-Machine#create-an-app-registration). All other settings can be left as is. Click "**Create**". 
 
 ![UnisolateMachine_Key_Vault_2](Images/UnisolateMachine_Key_Vault_2.png)
 

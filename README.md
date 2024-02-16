@@ -176,21 +176,3 @@ Paste "**AS-MDE-Unisolate-Machine**" into the principal search box and click the
 Navigate to the "**Review + create**" section and click "**Create**".
 
 ![UnisolateMachine_Key_Vault_Access_4](Images/UnisolateMachine_Key_Vault_Access_4.png)
-
-
-#
-### Running the Playbook 
-
-To run this playbook from a Microsoft Sentinel incident, navigate to Microsoft Sentinel:
-
-https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.securityinsightsarg%2Fsentinel
-
-Select a workspace and then click the "**Incidents**" menu option located under "**Threat management**". Select an incident with compromised host entities.
-
-Click on the "**Action**" list button on the bottom right of the screen and select "**Run playbook**".
-
-![UnisolateMachine_Run_1](Images/UnisolateMachine_Run_1.png)
-
-From the "**Run playbook on incident**" view, type "**AS-MDE-Unisolate-Machine**" into the search bar, then click run.
-
-![UnisolateMachine_Run_2](Images/UnisolateMachine_Run_2.png)

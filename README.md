@@ -60,17 +60,13 @@ Admin consent will be needed before your app registration can use the assigned p
 
 ![UnisolateMachine_App_Registration_7](Images/UnisolateMachine_App_Registration_7.png)
 
-Lastly, a client secret will need to be generated for the app registration. From the left menu blade, click "**Certificates & secrets**" under the "**Manage**" section. Then, click "**New client secret**".
+Lastly, a client secret will need to be generated for the app registration. From the left menu blade, click "**Certificates & secrets**" under the "**Manage**" section. Then, click "**New client secret**". Enter a description and select the desired expiration date, then click "**Add**".
 
 ![UnisolateMachine_App_Registration_8](Images/UnisolateMachine_App_Registration_8.png)
 
-Enter a description and select the desired expiration date, then click "**Add**".
-
-![UnisolateMachine_App_Registration_9](Images/UnisolateMachine_App_Registration_9.png)
-
 Copy the value of the secret that is generated, as this will be needed for [Create an Azure Key Vault Secret](https://github.com/Accelerynt-Security/AS-MDE-Unisolate-Machine#create-an-azure-key-vault-secret).
 
-![UnisolateMachine_App_Registration_10](Images/UnisolateMachine_App_Registration_10.png)
+![UnisolateMachine_App_Registration_9](Images/UnisolateMachine_App_Registration_9.png)
 
 
 #### Create an Azure Key Vault Secret
